@@ -12,5 +12,7 @@ end
 =end
 
 def display_rainbow(colors)
-  puts ""
+  puts "V: #{colors[0]} O:"
 end
+
+    colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
