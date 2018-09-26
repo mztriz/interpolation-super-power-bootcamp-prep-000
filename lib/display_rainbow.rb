@@ -10,3 +10,4 @@ end
 
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 display_rainbow(colors)
+
