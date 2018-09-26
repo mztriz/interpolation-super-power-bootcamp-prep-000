@@ -3,7 +3,7 @@ def display_rainbow(colors)
     if color.equal? colors.last
       print "#{color[0,1].upcase}: #{color}"
     else
-      print "#{color[0,1].upcase}: #{color},"
+      print "#{color[0,1].upcase}: #{color}, "
     end
   end
 end
