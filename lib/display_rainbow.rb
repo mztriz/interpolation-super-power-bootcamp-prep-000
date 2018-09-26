@@ -1,3 +1,5 @@
+#can't use this; must use puts
+=begin
 def display_rainbow(colors)
   colors.each do |color|
     if color.equal? colors.last
@@ -7,4 +9,6 @@ def display_rainbow(colors)
     end
   end
 end
+=end
 
+def display_rainbow(colors)\
