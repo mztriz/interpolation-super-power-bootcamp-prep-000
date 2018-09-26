@@ -1,4 +1,4 @@
-#can't use this; must use puts
+#can't use this; must use puts TT_TT
 =begin
 def display_rainbow(colors)
   colors.each do |color|
