@@ -4,5 +4,6 @@ def display_rainbow(colors)
       puts "#{color[0,1].upcase}: #{color}"
     else
       puts "#{color[0,1].upcase}: #{color},"
+    end
   end
 end
