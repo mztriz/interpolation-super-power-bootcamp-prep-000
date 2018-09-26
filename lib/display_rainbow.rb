@@ -1,8 +1,8 @@
 def display_rainbow(colors)
-  colors.each do |color| 
-    puts "#{color[0,1].upcase}: #{color},"
+  colors.each do |color|
     if color.equal? colors.last
       puts "#{color[0,1].upcase}: #{color}"
-    end
+    else
+      puts "#{color[0,1].upcase}: #{color},"
   end
 end
